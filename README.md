@@ -1,0 +1,1 @@
+Minimal javascript utility to get the first element of an object or array.

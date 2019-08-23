@@ -1,0 +1,28 @@
+{
+    "name": "getfirst",
+    "version": "1.0.0",
+    "description": "Get the first item of an array or a object.",
+    "main": "dist/index.js",
+    "autor": "Miquel Peix",
+    "liscense": "MIT",
+    "repository":{
+        "type":"git",
+        "url":"git+"
+    },
+    "homepage":"",
+    "dependencies": {
+        "@ngard/tiny-isequal": "^1.0.6",
+        "mocha": "^6.2.0"
+    },
+    "scripts": {
+        "test": "mocha",
+        "prepare":"npm run build",
+        "build": "babel index.js --out-dir dist"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.0.0-rc.1",
+        "@babel/core": "^7.0.0-rc.1",
+        "@babel/node": "^7.0.0-rc.1",
+        "@babel/preset-env": "^7.0.0-rc.1"
+    }
+}
