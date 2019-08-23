@@ -7,7 +7,7 @@
     "liscense": "MIT",
     "repository":{
         "type":"git",
-        "url":"git+"
+        "url":"git+https://github.com/mpeix/getFirst.git"
     },
     "homepage":"",
     "dependencies": {
