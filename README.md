@@ -1,7 +1,6 @@
 # jsgetfirst
 
 [![Build Status](https://travis-ci.org/mpeix/getFirst.svg?branch=master)](https://travis-ci.org/mpeix/getFirst)
-[![Coverage Status](https://coveralls.io/repos/github/mpeix/getFirst/badge.svg?branch=master)](https://coveralls.io/github/mpeix/getFirst?branch=master)
 
 ## Use this package to get the first element of an array or object
 
