@@ -1,5 +1,3 @@
-#jsgetfirst
-
 ## Use this package to get the first element of an array or object
 
 
