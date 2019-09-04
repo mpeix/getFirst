@@ -1,5 +1,6 @@
-## Use this package to get the first element of an array or object
+# jsgetfirst
 
+## Use this package to get the first element of an array or object
 
 ### Installation
 
