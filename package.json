@@ -1,5 +1,5 @@
 {
-    "name": "getfirst",
+    "name": "jsgetfirst",
     "version": "1.0.0",
     "description": "Get the first item of an array or a object.",
     "main": "dist/index.js",
