@@ -18,17 +18,16 @@
                 "test",
                 "dist"
             ]
-        }    
+        }
     },
     "dependencies": {
         "@ngard/tiny-isequal": "^1.0.6",
         "blanket": "^1.2.3",
         "coveralls": "^3.0.6",
-        "mocha": "^6.2.0",
-        "mocha-lcov-reporter": "^1.3.0"       
+        "mocha": "^6.2.0"
     },
     "scripts": {
-        "test": "mocha --require blanket --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js",
+        "test": "mocha --require blanket",
         "prepare": "npm run build",
         "build": "babel index.js --out-dir dist"
     },

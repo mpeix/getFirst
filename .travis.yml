@@ -1,4 +1,7 @@
 language: node_js
 node_js:
-  - "8"
-  - "10"
+   - "10"
+install:
+  - npm install -g codecov
+script:
+  - ./node_modules/.bin/mocha --require blanket --reporter mocha-lcov-reporter codecov
